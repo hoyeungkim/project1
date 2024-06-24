@@ -88,9 +88,9 @@
         <div class="user-section">
             <a href="post.jsp?username=<%= nickname %>">환영합니다, <%= nickname %>님!</a>
             <a href="login.jsp">로그아웃</a>
+            <a href="writePost.jsp">게시물 작성</a>
         </div>
     </div>
-
     <div class="main-content">
         <div class="new-post">
             <% if (isEmpty) { %>
