@@ -1,0 +1,42 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 50px; /* 상단 여백 */
+}
+
+/* 게시물 컨테이너 스타일 */
+.post-container {
+    max-width: 600px; /* 최대 너비 지정 */
+    margin: auto; /* 가운데 정렬을 위해 margin auto 설정 */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* 하단 여백 */
+}
+
+/* 팔로우 버튼 스타일 */
+#follow-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* 버튼 아래 여백 */
+}
+
+#follow-button:hover {
+    background-color: #1e66b3;
+}
+
+/* 게시물 간 구분선 스타일 */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}

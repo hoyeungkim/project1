@@ -1,0 +1,186 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 전체 body 스타일 */
+body {
+    font-family: 'Arial', sans-serif; /* 기본 글꼴 설정 */
+    background-color: #fafafa; /* 배경색 설정 */
+}
+
+/* 헤더 스타일 */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* 헤더 배경색 */
+    color: #000000; /* 헤더 글자색 */
+    padding: 10px;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: #000000; /* 링크 색상 */
+    display: flex;
+    align-items: center;
+}
+
+.header h1 a img {
+    width: 40px; /* 로고 이미지 너비 */
+    height: auto; /* 높이 자동 설정 */
+    margin-right: 10px; /* 로고와 텍스트 사이 여백 */
+}
+
+.search-link img {
+    margin-left:4px;
+    width: 24px; /* 이미지 크기 조정 */
+    height: 24px;
+}
+
+.user-section {
+    margin-left: auto; /* 사용자 섹션을 오른쪽으로 정렬 */
+}
+
+.user-section a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #262626; /* 사용자 섹션 글자 색상 */
+    transition: color 0.3s ease; /* 호버 효과 */
+}
+
+.user-section a:hover {
+    color: #8e8e8e; /* 호버 시 사용자 섹션 글자 색상 변경 */
+}
+
+/* 메인 콘텐츠 스타일 */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.new-post {
+    flex: 2; /* 좌측 컨텐츠 영역 확장 */
+    background-color: #ffffff; /* 콘텐츠 배경색 */
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.new-post p {
+    font-size: 18px;
+    color: #262626;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.comment-box {
+    display: none; /* 기본적으로 숨김 */
+    margin-top: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+/* 좋아요 버튼 스타일 */
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #3897f0; /* 인스타그램 블루 컬러 */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 호버 효과 */
+}
+
+button:hover {
+    background-color: #4dabf7; /* 호버 시 밝은 블루로 변경 */
+}
+
+/* 댓글 보기 버튼 스타일 */
+button[type="button"] {
+    background-color: #ced4da; /* 밝은 그레이 */
+    color: #495057;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* 호버 효과 */
+}
+
+button[type="button"]:hover {
+    background-color: #adb5bd; /* 호버 시 더 밝은 그레이로 변경 */
+}
+
+/* 댓글 폼 스타일 */
+form {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background-color: #3897f0; /* 인스타그램 블루 컬러 */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 호버 효과 */
+}
+
+input[type="submit"]:hover {
+    background-color: #4dabf7; /* 호버 시 밝은 블루로 변경 */
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+    flex: 1; /* 우측 사이드바 영역 */
+    background-color: #ffffff; /* 사이드바 배경색 */
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.sidebar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sidebar table td {
+    padding: 8px 0;
+}
+
+.sidebar table a {
+    text-decoration: none;
+    color: #262626;
+    transition: color 0.3s ease; /* 호버 효과 */
+}
+
+.sidebar table a:hover {
+    color: #8e8e8e; /* 호버 시 링크 글자 색상 변경 */
+}

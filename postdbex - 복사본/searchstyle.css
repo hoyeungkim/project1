@@ -1,0 +1,64 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 50px; /* 상단 여백 */
+}
+
+/* 검색 입력 폼 스타일 */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e66b3;
+}
+
+/* 검색 결과 스타일 */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* 검색 결과 가운데 정렬 */
+    margin: auto; /* 가운데 정렬을 위한 margin auto 설정 */
+    width: fit-content; /* 내용에 맞게 너비 조정 */
+}
+
+ul li {
+    display: block; /* 블록 요소로 변경하여 세로로 나열 */
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+ul li a {
+    color: #262626;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #3897f0;
+}
